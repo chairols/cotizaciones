@@ -21,6 +21,7 @@ class Cotizaciones extends CI_Controller {
     
     public function agregar() {
         $data['session'] = $this->session->all_userdata();
+        $data['menu'] = '/cotizaciones/agregar/';
         
         $data['clientes'] = $this->clientes_model->gets();
         

@@ -72,7 +72,7 @@
             <div class="menu">
                 <ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
-                    <li class="active">
+                    <li <?=($menu=='/dashboard/')?'class="active"':""?>>
                         <a href="/dashboard/">
                             <i class="material-icons">home</i>
                             <span>Novedades</span>
@@ -80,11 +80,17 @@
                     </li>
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">contacts</i>
+                            <span>Clientes</span>
+                        </a>
+                    </li>
+                    <li<?=($menu=='/cotizaciones/agregar/')?" class='active'":""?>>
+                        <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">shopping_cart</i>
                             <span>Cotizaciones</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
+                            <li<?=($menu=='/cotizaciones/agregar/')?" class='active'":""?>>
                                 <a href="/cotizaciones/agregar/">
                                     <span>Agregar</span>
                                 </a>
@@ -96,13 +102,13 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li<?=($menu=='/comprobantes/consulta/')?" class='active'":""?>>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">filter_9_plus</i>
                             <span>Comprobantes</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
+                            <li<?=($menu=='/comprobantes/consulta/')?" class='active'":""?>>
                                 <a href="/comprobantes/consulta/">
                                     <span>Consulta</span>
                                 </a>
@@ -427,16 +433,6 @@
                 </ul>
             </div>
             <!-- #Menu -->
-            <!-- Footer -->
-            <div class="legal">
-                <div class="copyright">
-                    &copy; 2016 - 2017 <a href="javascript:void(0);">AdminBSB - Material Design</a>.
-                </div>
-                <div class="version">
-                    <b>Version: </b> 1.0.5
-                </div>
-            </div>
-            <!-- #Footer -->
         </aside>
         <!-- #END# Left Sidebar -->
         <!-- Right Sidebar -->

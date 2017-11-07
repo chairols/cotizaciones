@@ -14,7 +14,7 @@ class Usuarios_model extends CI_Model {
                                         email,
                                         corredor
                                     FROM
-                                        usuarios
+                                        Usuarios
                                     WHERE
                                         usuario_usuarios = '$usuario' AND
                                         password_usuarios = '$password'");

@@ -21,8 +21,13 @@
     <script src="/assets/AdminBSBMaterialDesign-master/plugins/raphael/raphael.min.js"></script>
     <script src="/assets/AdminBSBMaterialDesign-master/plugins/morrisjs/morris.js"></script>
 
+    <!-- Sparkline Chart Plugin Js -->
+    <script src="/assets/AdminBSBMaterialDesign-master/plugins/jquery-sparkline/jquery.sparkline.js"></script>
+    
     <!-- Custom Js -->
     <script src="/assets/AdminBSBMaterialDesign-master/js/admin.js"></script>
+    <script src="/assets/AdminBSBMaterialDesign-master/js/helpers.js"></script>
+    <!--<script src="/assets/AdminBSBMaterialDesign-master/js/pages/widgets/infobox/infobox-5.js"></script>-->
     <script src="/assets/AdminBSBMaterialDesign-master/js/pages/index.js"></script>
 
     <!-- Demo Js -->

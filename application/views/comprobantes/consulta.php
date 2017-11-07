@@ -48,5 +48,34 @@
                 </div>
             </div>
         </div>
+    <?php if(isset($factura)) { ?>
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="header">
+                        <h2><?=$cliente['cliente']?></h2>
+                        <br>
+                        <h2><?=$factura['comprobanteDescripcion']?> <?=$factura['numeroFactura']?></h2>
+                    </div>
+                    <div class="body">
+                        <div class="icon-and-text-button-demo">
+                            <a href="/comprobantes/pdf/<?=$factura['id']?>/I/" target="_blank">
+                                <button type="button" class="btn bg-green waves-effect">
+                                    <i class="material-icons">remove_red_eye</i>
+                                    <span>VISUALIZAR</span>
+                                </button>
+                            </a>
+                            <a href="/comprobantes/pdf/<?=$factura['id']?>/D/" target="_blank">
+                                <button type="button" class="btn bg-green waves-effect">
+                                    <i class="material-icons">file_download</i>
+                                    <span>DESCARGAR</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php } ?>
     </div>
 </section>
