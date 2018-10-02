@@ -22,6 +22,9 @@
     <!-- Animation Css -->
     <link href="/assets/AdminBSBMaterialDesign-master/plugins/animate-css/animate.css" rel="stylesheet" />
 
+    <!-- Dropzone Css -->
+    <link href="/assets/AdminBSBMaterialDesign-master/plugins/dropzone-5.2.0/css/dropzone.css" rel="stylesheet">
+    
     <!-- Bootstrap Material Datetime Picker Css -->
     <link href="/assets/AdminBSBMaterialDesign-master/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet" />
 

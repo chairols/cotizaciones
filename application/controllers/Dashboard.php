@@ -16,7 +16,7 @@ class Dashboard extends CI_Controller {
         
         $session = $this->session->all_userdata();
         if(count($session) < 6) {
-            redirect(base_url().'usuarios/login/', 'refresh');
+            redirect('usuarios/login/', 'refresh');
         }
     }
     

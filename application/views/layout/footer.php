@@ -11,6 +11,10 @@
     <!-- Slimscroll Plugin Js -->
     <script src="/assets/AdminBSBMaterialDesign-master/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 
+    <!-- Dropzone Plugin Js -->
+    <script src="/assets/AdminBSBMaterialDesign-master/plugins/dropzone-5.2.0/js/dropzone.js"></script>
+    
+    
     <!-- Waves Effect Plugin Js -->
     <script src="/assets/AdminBSBMaterialDesign-master/plugins/node-waves/waves.js"></script>
 
@@ -24,12 +28,13 @@
     <!-- Sparkline Chart Plugin Js -->
     <script src="/assets/AdminBSBMaterialDesign-master/plugins/jquery-sparkline/jquery.sparkline.js"></script>
     
+    
+    
     <!-- Custom Js -->
     <script src="/assets/AdminBSBMaterialDesign-master/js/admin.js"></script>
     <script src="/assets/AdminBSBMaterialDesign-master/js/helpers.js"></script>
     <!--<script src="/assets/AdminBSBMaterialDesign-master/js/pages/widgets/infobox/infobox-5.js"></script>-->
     <script src="/assets/AdminBSBMaterialDesign-master/js/pages/index.js"></script>
-
     <!-- Demo Js -->
     <script src="/assets/AdminBSBMaterialDesign-master/js/demo.js"></script>
 </body>

@@ -8,7 +8,7 @@
                     </div>
                     <div class="content">
                         <div class="text">COMPROBANTES</div>
-                        <div class="number count-to" data-from="0" data-to="<?=$comprobantes['cantidad']?>" data-speed="2000" data-fresh-interval="20"><?=$comprobantes['cantidad']?></div>
+                        <div class="number count-to" data-from="0" data-to="<?=$comprobantes['cantidad']?>" data-speed="1000" data-fresh-interval="20"><?=$comprobantes['cantidad']?></div>
                     </div>
                 </div>
             </div>

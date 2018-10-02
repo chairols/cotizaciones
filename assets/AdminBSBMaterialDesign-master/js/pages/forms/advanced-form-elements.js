@@ -4,7 +4,8 @@ $(function () {
     //Dropzone
     Dropzone.options.frmFileUpload = {
         paramName: "file",
-        maxFilesize: 2
+        maxFilesize: 2,
+        acceptedFiles: "text/plain"
     };
 
     //Masked Input ============================================================================================================================
